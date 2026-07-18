@@ -252,18 +252,12 @@
     {
       "id": "nextcloud",
       "name": "Nextcloud",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "kiosk_api": "^1.3",
-      "type": "code",
       "category": "Services",
       "description": "",
-      "icon": "☁️",
-      "color": "#7aa2f7",
-      "requires": [],
-      "changelog": "",
-      "package": "zips/nextcloud/nextcloud-0.2.1.zip",
-      "sha256": "d3628dd3ddd3f64d22c30b477c20b3cbe2e378c207eb23bb31cb7e3c08de413a",
-      "size": 7992
+      "zip": "zips/nextcloud-0.3.0.zip",
+      "sha256": "40f6d7d4d9be30690bfc8ba6aa93d1bc9399b4e60132f24dffa720f621e86ebc"
     },
     {
       "id": "paperless",
