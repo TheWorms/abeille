@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T18:34:13Z",
+  "updated": "2026-07-18T18:34:14Z",
   "addons": [
     {
       "id": "agenda",
@@ -146,18 +146,12 @@
     {
       "id": "jardin",
       "name": "Jardin",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "kiosk_api": "^1.3",
-      "type": "code",
       "category": "Maison",
       "description": "",
-      "icon": "🌱",
-      "color": "#5ac8a8",
-      "requires": [],
-      "changelog": "",
-      "package": "zips/jardin/jardin-0.2.0.zip",
-      "sha256": "ce7bd8a9ad775eda90a66c34961b4c2b5781604d739b728194b22124d312f3a7",
-      "size": 5841
+      "zip": "zips/jardin-0.3.0.zip",
+      "sha256": "42ecc9ad208e712b356b35164f2c9401cf4c2176a020f93dcb2298b7952281f5"
     },
     {
       "id": "kitchenowl",
