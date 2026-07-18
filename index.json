@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T21:04:35Z",
+  "updated": "2026-07-18T16:44:09Z",
   "addons": [
     {
       "id": "agenda",
@@ -68,7 +68,7 @@
     {
       "id": "congelateur",
       "name": "Congélateur",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -79,14 +79,14 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/congelateur/congelateur-0.2.0.zip",
-      "sha256": "4b8d4f5e632b2ad2617d5e32397270d59c4f2ad5c9685eef2d15811e088131cb",
-      "size": 12711
+      "package": "zips/congelateur/congelateur-0.2.2.zip",
+      "sha256": "3458ab178a34dad3bc00776d42c35e8dd57e065d7f256c2e97f4cbcfda6e315a",
+      "size": 14376
     },
     {
       "id": "courses",
       "name": "Courses",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -97,9 +97,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/courses/courses-0.2.0.zip",
-      "sha256": "86c8a0efdf2eea4cd0aea2841d99ff288a906ac64a1cac57bb4df127e398e661",
-      "size": 12533
+      "package": "zips/courses/courses-0.2.2.zip",
+      "sha256": "d60534c6c9ec2b22aa826e75efb7ca4ee8b93ed03e9e468f49969c39d60805c0",
+      "size": 14197
     },
     {
       "id": "forgejo",
@@ -168,7 +168,7 @@
     {
       "id": "kitchenowl",
       "name": "Hub KitchenOwl",
-      "version": "0.2.1",
+      "version": "0.2.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -177,9 +177,9 @@
       "color": "#e0a53e",
       "requires": [],
       "changelog": "",
-      "package": "zips/kitchenowl/kitchenowl-0.2.1.zip",
-      "sha256": "fba6430b12ee2b93ebd5bf0416994f406ddaa8e78ad060eb1ffbdea13a580b07",
-      "size": 18929
+      "package": "zips/kitchenowl/kitchenowl-0.2.3.zip",
+      "sha256": "28c8e2cbeb339c2ab803ad3002e6e30bbeb830fbe609ea39ed703d52d364a0f4",
+      "size": 20594
     },
     {
       "id": "kodi",
@@ -232,7 +232,7 @@
     {
       "id": "maree",
       "name": "Marée",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
@@ -241,9 +241,9 @@
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/maree/maree-0.2.0.zip",
-      "sha256": "4fdd7b49239fea4ee6e543362747e9e0224972480748d7c88a605199ac6ca4c6",
-      "size": 6697
+      "package": "zips/maree/maree-0.3.0.zip",
+      "sha256": "63cc2cb5128105efd1b4352e2fa419d115d574fdab1bd9197620aea4aa5948aa",
+      "size": 6794
     },
     {
       "id": "musique",
@@ -328,7 +328,7 @@
     {
       "id": "recettes",
       "name": "Recettes",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -340,14 +340,14 @@
         "corbeille"
       ],
       "changelog": "",
-      "package": "zips/recettes/recettes-0.2.0.zip",
-      "sha256": "b07d0cf14b09fd6902f03a2829215615a695b21d967596747e627ffac5d4eb61",
-      "size": 13715
+      "package": "zips/recettes/recettes-0.2.2.zip",
+      "sha256": "97eda6c5636c8f7e2dacc060d70e4e05115b810fc0d273d2182d90b2b6a2318c",
+      "size": 15661
     },
     {
       "id": "repas",
       "name": "Repas semaine",
-      "version": "0.2.0",
+      "version": "0.3.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -358,9 +358,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/repas/repas-0.2.0.zip",
-      "sha256": "72619266bdfd703f67c8b906af385932430b9f2842122c5ca61dac3e5b1d02c9",
-      "size": 12554
+      "package": "zips/repas/repas-0.3.1.zip",
+      "sha256": "f736d3be716f5cf969d6f2e88d382ebcaef9f8a4ab18bd4228e200b4628c1664",
+      "size": 14213
     },
     {
       "id": "soleil-lune",
@@ -381,7 +381,7 @@
     {
       "id": "stock",
       "name": "Stock cuisine",
-      "version": "0.2.0",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -392,9 +392,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/stock/stock-0.2.0.zip",
-      "sha256": "6980ac2e5d7f3e9c859638be3e112b608b9e265d845ad66245f746766896aa6c",
-      "size": 12391
+      "package": "zips/stock/stock-0.2.2.zip",
+      "sha256": "ffb90610c6a861d43e811a6d7f7f98714cd3f42d1040270d032858998491d4af",
+      "size": 14054
     },
     {
       "id": "transport",
