@@ -409,18 +409,12 @@
     {
       "id": "wallos",
       "name": "Abonnements",
-      "version": "0.2.1",
-      "kiosk_api": "^1.2",
-      "type": "declarative",
+      "version": "0.3.2",
+      "kiosk_api": "^1.3",
       "category": "Quotidien",
       "description": "Abonnements actifs et coût du mois via Wallos (Fourmi) — le calcul mensuel est fait par Wallos lui-même.",
-      "icon": "🐜",
-      "color": "#f0b429",
-      "requires": [],
-      "changelog": "",
-      "package": "zips/wallos/wallos-0.2.1.zip",
-      "sha256": "4ec6916a79c3b102d583abd8da71e81d76f3cfee49dd396283b247000d1469d2",
-      "size": 1037
+      "zip": "zips/wallos-0.3.2.zip",
+      "sha256": "8df0d4645163032369c7bd732444958b90dc9936db5d38d08ad76c8f91afcb25"
     },
     {
       "id": "wikijs",
