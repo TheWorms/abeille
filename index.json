@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T21:47:04Z",
+  "updated": "2026-07-20T21:47:06Z",
   "addons": [
     {
       "id": "agenda",
@@ -161,18 +161,19 @@
     {
       "id": "grafana",
       "name": "Grafana",
-      "version": "0.3.2",
+      "version": "0.3.5",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Supervision Grafana : santé et version, sources de données et leur état, alertes actives, liste des dashboards, et rendu à la demande d'un panel (image PNG via le renderer).",
       "icon": "📊",
+      "logo": "logo.svg",
       "color": "#f46800",
       "requires": [],
       "changelog": "",
-      "package": "zips/grafana/grafana-0.3.2.zip",
-      "sha256": "e5c80243278942ce901ab761ea2cd4edbb72e5527c5ad7e2eb8c762abb562963",
-      "size": 6396
+      "package": "zips/grafana/grafana-0.3.5.zip",
+      "sha256": "6b815185bb70ece33e12495983073354187b087ee5d108bd489da067dc9937ef",
+      "size": 8404
     },
     {
       "id": "hetzner",
