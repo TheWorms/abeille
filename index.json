@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:29:32Z",
+  "updated": "2026-07-20T20:29:35Z",
   "addons": [
     {
       "id": "agenda",
@@ -590,18 +590,19 @@
     {
       "id": "wikijs",
       "name": "Wiki.js",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Wiki.js (Hibou) : statistiques (pages, publiées, brouillons, dossiers), recherche, pages récemment modifiées et arborescence par dossier. Bascule liste / cartes ; clic pour ouvrir la page.",
       "icon": "📚",
+      "logo": "logo.svg",
       "color": "#1976d2",
       "requires": [],
       "changelog": "",
-      "package": "zips/wikijs/wikijs-0.3.2.zip",
-      "sha256": "036822602960eae1c61ce5336d6d2dc5b71309872d0aa3afe0f135a4057015f7",
-      "size": 6400
+      "package": "zips/wikijs/wikijs-0.3.3.zip",
+      "sha256": "38ea5f589d1ff9c371921fa2910205668203ef69904ad8cd2894b4c4077edf9f",
+      "size": 14966
     },
     {
       "id": "wyl",
