@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:37:53Z",
+  "updated": "2026-07-20T20:37:56Z",
   "addons": [
     {
       "id": "agenda",
@@ -501,20 +501,21 @@
     {
       "id": "repas",
       "name": "Repas semaine",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
       "description": "",
       "icon": "📅",
+      "logo": "logo.svg",
       "color": "#e8a06a",
       "requires": [
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/repas/repas-0.3.2.zip",
-      "sha256": "61132eab9f1ecc0249331aac39f2340cd0385d222613933a372bbccc51ff2f73",
-      "size": 14200
+      "package": "zips/repas/repas-0.3.3.zip",
+      "sha256": "a3c46006008851ffe7fb5039bc6664b19157d0a78ea9187705ca8c9dd7e89b6d",
+      "size": 14526
     },
     {
       "id": "soleil-lune",
