@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:34Z",
+  "updated": "2026-07-20T17:22:36Z",
   "addons": [
     {
       "id": "agenda",
@@ -328,7 +328,7 @@
     {
       "id": "maree",
       "name": "Marée",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
@@ -337,9 +337,9 @@
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/maree/maree-0.3.0.zip",
-      "sha256": "63cc2cb5128105efd1b4352e2fa419d115d574fdab1bd9197620aea4aa5948aa",
-      "size": 6794
+      "package": "zips/maree/maree-0.3.1.zip",
+      "sha256": "073d4fa8997b3445792bb858f45f14f806394559a99aaa86ae219a8f0126d96e",
+      "size": 6796
     },
     {
       "id": "musique",
