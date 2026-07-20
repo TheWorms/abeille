@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:38:01Z",
+  "updated": "2026-07-20T20:38:03Z",
   "addons": [
     {
       "id": "agenda",
@@ -573,18 +573,19 @@
     {
       "id": "transport",
       "name": "Transport",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
       "description": "",
       "icon": "🚆",
+      "logo": "logo.svg",
       "color": "#7aa2f7",
       "requires": [],
       "changelog": "",
-      "package": "zips/transport/transport-0.2.1.zip",
-      "sha256": "9ff791ac7ffd55ac6ccb2c5441c51f6018f5a82c8448ceee4d81149070d50196",
-      "size": 12192
+      "package": "zips/transport/transport-0.2.2.zip",
+      "sha256": "025dfaeba25286da9435365599ad18a3f009ddda4e2750a180c9979295270e66",
+      "size": 12527
     },
     {
       "id": "wallos",
