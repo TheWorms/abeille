@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:03:10Z",
+  "updated": "2026-07-20T22:03:12Z",
   "addons": [
     {
       "id": "agenda",
@@ -91,11 +91,11 @@
     {
       "id": "courses",
       "name": "Courses",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
-      "description": "",
+      "description": "Liste de courses partagée, synchronisée avec KitchenOwl. Façade du hub cuisine.",
       "icon": "🛒",
       "logo": "logo.svg",
       "color": "#f0b429",
@@ -103,9 +103,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/courses/courses-0.2.4.zip",
-      "sha256": "6c144571e9b36ac73d699da4e3d56735fd386915f37a65e62c22515ed8abb2e0",
-      "size": 14503
+      "package": "zips/courses/courses-0.2.5.zip",
+      "sha256": "99ed3762f2ceb0eb691e7c595d88b43ca9ea50ee239d799bbaad91fdb9234640",
+      "size": 14571
     },
     {
       "id": "emby",
