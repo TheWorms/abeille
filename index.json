@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:37:34Z",
+  "updated": "2026-07-20T20:37:37Z",
   "addons": [
     {
       "id": "agenda",
@@ -193,18 +193,19 @@
     {
       "id": "infomaniak",
       "name": "Infomaniak",
-      "version": "0.6.0",
+      "version": "0.6.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Infomaniak multi-organisations : balaie automatiquement tous tes comptes (Koody, ES Production…) et agrège domaines, hébergements mail, Cloud/VPS, certificats SSL et hébergements web, avec dates d'expiration, étiquettes et badge organisation. Sections activables séparément. Token unique avec scope accounts requis pour le multi-orga.",
       "icon": "🌐",
+      "logo": "logo.svg",
       "color": "#0098ff",
       "requires": [],
       "changelog": "",
-      "package": "zips/infomaniak/infomaniak-0.6.0.zip",
-      "sha256": "514ad5b8c97eeada8998e89d09edd58077576059dc4c3bb410689a56b65899af",
-      "size": 7527
+      "package": "zips/infomaniak/infomaniak-0.6.1.zip",
+      "sha256": "02439b3584289d118b092aa0fa4d2b389c76a4b5fdb7e80d7c42050d2729798e",
+      "size": 7897
     },
     {
       "id": "instagram",
