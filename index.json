@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:45Z",
+  "updated": "2026-07-20T17:22:47Z",
   "addons": [
     {
       "id": "agenda",
@@ -440,7 +440,7 @@
     {
       "id": "recettes",
       "name": "Recettes",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -452,9 +452,9 @@
         "corbeille"
       ],
       "changelog": "",
-      "package": "zips/recettes/recettes-0.2.2.zip",
-      "sha256": "97eda6c5636c8f7e2dacc060d70e4e05115b810fc0d273d2182d90b2b6a2318c",
-      "size": 15661
+      "package": "zips/recettes/recettes-0.2.3.zip",
+      "sha256": "81930eafe3b2c65343a7b731e319e150f88722fc4f18532fb539e815caea1426",
+      "size": 15650
     },
     {
       "id": "repas",
