@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:21:28Z",
+  "updated": "2026-07-20T17:21:42Z",
   "addons": [
     {
       "id": "agenda",
@@ -20,7 +20,7 @@
     {
       "id": "arcane",
       "name": "Arcane",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -29,9 +29,9 @@
       "color": "#2496ed",
       "requires": [],
       "changelog": "",
-      "package": "zips/arcane/arcane-0.3.1.zip",
-      "sha256": "00fbf419f0599b8b910283193a8d9e840c75d74d586b5f6656c879a512bf8175",
-      "size": 6402
+      "package": "zips/arcane/arcane-0.3.2.zip",
+      "sha256": "a2b1ce13fac1fcb0a0a973e605b1ecacc11e429726132be95217fc3156ef97fe",
+      "size": 6399
     },
     {
       "id": "backups",
