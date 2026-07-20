@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T21:47:07Z",
+  "updated": "2026-07-20T22:03:10Z",
   "addons": [
     {
       "id": "agenda",
@@ -246,19 +246,19 @@
     {
       "id": "kitchenowl",
       "name": "Hub KitchenOwl",
-      "version": "0.2.5",
+      "version": "0.2.6",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
-      "description": "",
+      "description": "Hub cuisine KitchenOwl : liste de courses, garde-manger, congélateur, recettes et planning de repas. Base partagée par les addons Courses, Stock, Congélateur, Recettes et Repas.",
       "icon": "🥘",
       "logo": "logo.svg",
       "color": "#e0a53e",
       "requires": [],
       "changelog": "",
-      "package": "zips/kitchenowl/kitchenowl-0.2.5.zip",
-      "sha256": "5a09529a594a71c5f2b0dda0ca67a7951e78f8daa7b2a373ac60cf3e51448b83",
-      "size": 23292
+      "package": "zips/kitchenowl/kitchenowl-0.2.6.zip",
+      "sha256": "914a862b8c72d29937dabfd449744ba64ac27412b2a58f41fae61783c19a18a4",
+      "size": 23396
     },
     {
       "id": "kodi",
