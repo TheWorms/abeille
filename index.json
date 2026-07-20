@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:03:19Z",
+  "updated": "2026-07-20T22:03:22Z",
   "addons": [
     {
       "id": "agenda",
@@ -504,11 +504,11 @@
     {
       "id": "repas",
       "name": "Repas semaine",
-      "version": "0.3.3",
+      "version": "0.3.4",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
-      "description": "",
+      "description": "Planning des repas de la semaine, synchronisé avec KitchenOwl. Façade du hub cuisine.",
       "icon": "📅",
       "logo": "logo.svg",
       "color": "#e8a06a",
@@ -516,9 +516,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/repas/repas-0.3.3.zip",
-      "sha256": "a3c46006008851ffe7fb5039bc6664b19157d0a78ea9187705ca8c9dd7e89b6d",
-      "size": 14526
+      "package": "zips/repas/repas-0.3.4.zip",
+      "sha256": "aa55c47d2a6e01c5b0eb9f10cbad038579296986e5ded41858698ca90ba8c447",
+      "size": 14594
     },
     {
       "id": "soleil-lune",
