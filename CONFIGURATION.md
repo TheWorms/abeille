@@ -61,7 +61,7 @@ _Aucun réglage — cet addon fonctionne sans configuration._
 
 ### Abonnements  
 
-Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous les abonnements en cartes, répartition par catégorie (donut) et prévisionnel des prochains mois. Disposition (onglets ou page unique) et horizon configurables.
+Abonnements via Wallos : budget du mois (dû/prélevé/restant), tous les abonnements en cartes, répartition par catégorie (donut) et prévisionnel des prochains mois. Disposition (onglets ou page unique) et horizon configurables.
 
 | Champ | Type | À renseigner |
 |---|---|---|
@@ -254,7 +254,7 @@ Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements e
 
 ### Uptime Kuma  
 
-Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteurs en liste ou cartes avec uptime 24 h, temps de réponse et historique récent.
+Uptime Kuma : statistiques (en ligne, hors ligne, ping moyen), moniteurs en liste ou cartes avec uptime 24 h, temps de réponse et historique récent.
 
 | Champ | Type | À renseigner |
 |---|---|---|
@@ -267,7 +267,7 @@ Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteur
 
 ### WatchYourLAN  
 
-Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut en ligne. Bascule liste / cartes, hôtes hors ligne grisés.
+Hôtes du réseau via WatchYourLAN : nom, IP, MAC, matériel et statut en ligne. Bascule liste / cartes, hôtes hors ligne grisés.
 
 | Champ | Type | À renseigner |
 |---|---|---|
@@ -276,7 +276,7 @@ Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut e
 
 ### Wiki.js  
 
-Wiki.js (Hibou) : statistiques (pages, publiées, brouillons, dossiers), recherche, pages récemment modifiées et arborescence par dossier. Bascule liste / cartes ; clic pour ouvrir la page.
+Wiki.js : statistiques (pages, publiées, brouillons, dossiers), recherche, pages récemment modifiées et arborescence par dossier. Bascule liste / cartes ; clic pour ouvrir la page.
 
 | Champ | Type | À renseigner |
 |---|---|---|
@@ -310,7 +310,7 @@ Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est e
 
 ### Kodi  
 
-Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et bibliothèque — films et épisodes récemment ajoutés avec affiches. Deux onglets : Lecture et Bibliothèque.
+Kodi : télécommande complète (lecture, navigation, volume) et bibliothèque — films et épisodes récemment ajoutés avec affiches. Deux onglets : Lecture et Bibliothèque.
 
 | Champ | Type | À renseigner |
 |---|---|---|
@@ -321,7 +321,7 @@ Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et
 
 ### Livres  
 
-Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita).
+Kavita : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita).
 
 | Champ | Type | À renseigner |
 |---|---|---|
