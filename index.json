@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:16Z",
+  "updated": "2026-07-20T17:22:19Z",
   "addons": [
     {
       "id": "agenda",
@@ -232,7 +232,7 @@
     {
       "id": "kitchenowl",
       "name": "Hub KitchenOwl",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
@@ -241,9 +241,9 @@
       "color": "#e0a53e",
       "requires": [],
       "changelog": "",
-      "package": "zips/kitchenowl/kitchenowl-0.2.3.zip",
-      "sha256": "28c8e2cbeb339c2ab803ad3002e6e30bbeb830fbe609ea39ed703d52d364a0f4",
-      "size": 20594
+      "package": "zips/kitchenowl/kitchenowl-0.2.4.zip",
+      "sha256": "6eb820a91ecbd26d48e893d24e214900c3c005a639c342e8a111344fc85960ee",
+      "size": 20585
     },
     {
       "id": "kodi",
