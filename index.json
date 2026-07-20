@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:21:58Z",
+  "updated": "2026-07-20T17:22:00Z",
   "addons": [
     {
       "id": "agenda",
@@ -120,7 +120,7 @@
     {
       "id": "forgejo",
       "name": "Forgejo",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "kiosk_api": "^1.2",
       "type": "code",
       "category": "Services",
@@ -129,9 +129,9 @@
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/forgejo/forgejo-0.2.1.zip",
-      "sha256": "3ff37d586b8f78cbca0bef884379b0d9c46e0e48acf43e4d4a0c700ee138b3a7",
-      "size": 6119
+      "package": "zips/forgejo/forgejo-0.2.2.zip",
+      "sha256": "46b9b4d7e301c918ec67fa50dc1b7b7af1c39c1590c9b0127e47deb90d62900c",
+      "size": 6116
     },
     {
       "id": "grafana",
