@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:29:23Z",
+  "updated": "2026-07-20T20:29:25Z",
   "addons": [
     {
       "id": "agenda",
@@ -403,18 +403,19 @@
     {
       "id": "paperless",
       "name": "Paperless",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Paperless-ngx (Méduse) : statistiques (documents, réception, correspondants, types, tags), recherche plein-texte, boîte de réception et documents récents avec vignettes. Bascule liste / cartes ; clic pour ouvrir le document.",
       "icon": "📄",
+      "logo": "logo.svg",
       "color": "#2e8b57",
       "requires": [],
       "changelog": "",
-      "package": "zips/paperless/paperless-0.3.1.zip",
-      "sha256": "240cbdc0e3f897e7ed1588efa78a26d817340b1727d606bffe1025f2be1b9d8c",
-      "size": 6358
+      "package": "zips/paperless/paperless-0.3.2.zip",
+      "sha256": "6ffbd3b7e227b09e626a94982ad2f1b1b4743e2b1043dea32977cb6fb369c312",
+      "size": 6877
     },
     {
       "id": "pihole",
