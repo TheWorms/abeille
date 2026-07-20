@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:12Z",
+  "updated": "2026-07-20T17:22:16Z",
   "addons": [
     {
       "id": "agenda",
@@ -200,7 +200,7 @@
     {
       "id": "instagram",
       "name": "Instagram",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "kiosk_api": "^1.2",
       "type": "code",
       "category": "Médias",
@@ -209,9 +209,9 @@
       "color": "#e8635a",
       "requires": [],
       "changelog": "",
-      "package": "zips/instagram/instagram-0.4.0.zip",
-      "sha256": "1f710161bb50c9ebc41cb891b4fe985744a65edb9e5dac425220b6cfed0331c2",
-      "size": 14234
+      "package": "zips/instagram/instagram-0.4.1.zip",
+      "sha256": "117d7b41dfba49627905a62256c892cc8e761f5d9cc94f58921f6eda2a83f21c",
+      "size": 14232
     },
     {
       "id": "jardin",
