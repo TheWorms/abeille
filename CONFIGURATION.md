@@ -8,7 +8,9 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 ## Maison
 
 
-### <img src="logos/congelateur.svg" width="20" alt=""> Congélateur — v0.2.4
+### <img src="logos/congelateur.svg" width="20" alt=""> Congélateur — v0.2.5
+
+Inventaire du congélateur, synchronisé avec KitchenOwl. Façade du hub cuisine.
 
 
 | Champ | Libellé | Type |
@@ -16,12 +18,16 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 | `category` | Catégorie « congélateur » (optionnel) | texte — ex. `Congélateur` |
 
 
-### <img src="logos/courses.svg" width="20" alt=""> Courses — v0.2.4
+### <img src="logos/courses.svg" width="20" alt=""> Courses — v0.2.5
+
+Liste de courses partagée, synchronisée avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/kitchenowl.svg" width="20" alt=""> Hub KitchenOwl — v0.2.5
+### <img src="logos/kitchenowl.svg" width="20" alt=""> Hub KitchenOwl — v0.2.6
+
+Hub cuisine KitchenOwl : liste de courses, garde-manger, congélateur, recettes et planning de repas. Base partagée par les addons Courses, Stock, Congélateur, Recettes et Repas.
 
 
 | Champ | Libellé | Type |
@@ -36,17 +42,23 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/recettes.svg" width="20" alt=""> Recettes — v0.2.4
+### <img src="logos/recettes.svg" width="20" alt=""> Recettes — v0.2.5
+
+Recettes de cuisine, synchronisées avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/repas.svg" width="20" alt=""> Repas semaine — v0.3.3
+### <img src="logos/repas.svg" width="20" alt=""> Repas semaine — v0.3.4
+
+Planning des repas de la semaine, synchronisé avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/stock.svg" width="20" alt=""> Stock cuisine — v0.2.4
+### <img src="logos/stock.svg" width="20" alt=""> Stock cuisine — v0.2.5
+
+Garde-manger et stock des placards, synchronisés avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
@@ -81,7 +93,9 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `notif` | Notifications dans le bandeau | liste déroulante — choix : Activées / Désactivées |
 
 
-### <img src="logos/budget.svg" width="20" alt=""> Budget — v0.2.3
+### <img src="logos/budget.svg" width="20" alt=""> Budget — v0.2.4
+
+Budget personnel via Actual Budget (passerelle actual-http-api) : soldes des comptes, transactions récentes et suivi des catégories.
 
 
 | Champ | Libellé | Type |
@@ -91,7 +105,9 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `budget` | ID de synchronisation du budget | texte — ex. `laisser vide pour lister` |
 
 
-### <img src="logos/maree.svg" width="20" alt=""> Marée — v0.3.2
+### <img src="logos/maree.svg" width="20" alt=""> Marée — v0.3.3
+
+Horaires et coefficients de marée (pleines et basses mers) via l'API api-maree.fr.
 
 
 | Champ | Libellé | Type |
@@ -112,7 +128,9 @@ Lever et coucher du soleil, durée du jour, phase et illumination de la lune —
 | `tz` | Décalage horaire (heures, ex. 2 en été) | texte — ex. `2` |
 
 
-### <img src="logos/transport.svg" width="20" alt=""> Transport — v0.2.2
+### <img src="logos/transport.svg" width="20" alt=""> Transport — v0.2.3
+
+Prochains passages de train, métro, tram et bus via l'API Navitia (données SNCF / transporteurs).
 
 
 | Champ | Libellé | Type |
@@ -171,7 +189,9 @@ Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche e
 | `apikey` | Clé API (Compte → Clé API) | secret (masqué) |
 
 
-### <img src="logos/musique.svg" width="20" alt=""> Musique — v0.2.2
+### <img src="logos/musique.svg" width="20" alt=""> Musique — v0.2.3
+
+Lecteur audio branché sur Navidrome (Subsonic) : lecture en fond, favoris et navigation dans la bibliothèque.
 
 
 | Champ | Libellé | Type |
@@ -364,7 +384,9 @@ Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, st
 | `pass5` | Mot de passe d'application 5 | secret (masqué) |
 
 
-### <img src="logos/proxmox.svg" width="20" alt=""> Proxmox — v0.2.2
+### <img src="logos/proxmox.svg" width="20" alt=""> Proxmox — v0.2.3
+
+État de l'hyperviseur Proxmox VE : nœuds, machines virtuelles et conteneurs LXC, charge CPU/RAM et stockage.
 
 
 | Champ | Libellé | Type |
