@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:28:53Z",
+  "updated": "2026-07-20T20:28:59Z",
   "addons": [
     {
       "id": "agenda",
@@ -20,18 +20,19 @@
     {
       "id": "arcane",
       "name": "Arcane",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Conteneurs Docker via Arcane, tous environnements agrégés (badge machine) : stats, liste ou cartes avec ports et état, actions démarrer / arrêter / redémarrer. Arrêtés grisés, mises à jour signalées.",
       "icon": "🐳",
+      "logo": "logo.svg",
       "color": "#2496ed",
       "requires": [],
       "changelog": "",
-      "package": "zips/arcane/arcane-0.3.2.zip",
-      "sha256": "a2b1ce13fac1fcb0a0a973e605b1ecacc11e429726132be95217fc3156ef97fe",
-      "size": 6399
+      "package": "zips/arcane/arcane-0.3.3.zip",
+      "sha256": "ed5678072db051950476427788260ecf6179ab07e09b7d4bf99d4503a28176ef",
+      "size": 8605
     },
     {
       "id": "backups",
