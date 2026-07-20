@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:37:39Z",
+  "updated": "2026-07-20T20:37:41Z",
   "addons": [
     {
       "id": "agenda",
@@ -295,18 +295,19 @@
     {
       "id": "livres",
       "name": "Livres",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Médias",
       "description": "Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita).",
       "icon": "📚",
+      "logo": "logo.svg",
       "color": "#8a5cf6",
       "requires": [],
       "changelog": "",
-      "package": "zips/livres/livres-0.4.1.zip",
-      "sha256": "1ee70eb52ed105229085e0da6c317f84056052d5b73f12dcf159c7f1e21c84ae",
-      "size": 9353
+      "package": "zips/livres/livres-0.4.2.zip",
+      "sha256": "b88f44bd64a773b94ff30e1ca62dea8db76c64159be150d19b401ead2cb86e11",
+      "size": 9779
     },
     {
       "id": "mail",
