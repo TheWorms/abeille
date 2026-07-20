@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:29:27Z",
+  "updated": "2026-07-20T20:29:30Z",
   "addons": [
     {
       "id": "agenda",
@@ -437,18 +437,19 @@
     {
       "id": "proxmox",
       "name": "Proxmox",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "kiosk_api": "^1.2",
       "type": "code",
       "category": "Services",
       "description": "",
       "icon": "🖥️",
+      "logo": "logo.svg",
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/proxmox/proxmox-0.2.1.zip",
-      "sha256": "81771534cd0db7ab48abda1a4b4eca8929ed180513f82286af4688b972dc1191",
-      "size": 2109
+      "package": "zips/proxmox/proxmox-0.2.2.zip",
+      "sha256": "f8b863b03d943e12c53615f5162287718e8600415ed5e6995e3420ad49228770",
+      "size": 2827
     },
     {
       "id": "radarr",
