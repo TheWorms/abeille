@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:38:03Z",
+  "updated": "2026-07-20T20:38:05Z",
   "addons": [
     {
       "id": "agenda",
@@ -590,18 +590,19 @@
     {
       "id": "wallos",
       "name": "Abonnements",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
       "description": "Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous les abonnements en cartes, répartition par catégorie (donut) et prévisionnel des prochains mois. Disposition (onglets ou page unique) et horizon configurables.",
       "icon": "🐜",
+      "logo": "logo.svg",
       "color": "#f0b429",
       "requires": [],
       "changelog": "",
-      "package": "zips/wallos/wallos-0.4.2.zip",
-      "sha256": "4ef0c271b09a45cf7eff2a7850a3767a07317b0aa1de21f475b262be2753f4b6",
-      "size": 9229
+      "package": "zips/wallos/wallos-0.4.3.zip",
+      "sha256": "a442f5c4e9c599f72280d5625c518ee9d60d803c7270a40b800627ae3f67256c",
+      "size": 9702
     },
     {
       "id": "wikijs",
