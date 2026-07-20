@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:06Z",
+  "updated": "2026-07-20T17:22:09Z",
   "addons": [
     {
       "id": "agenda",
@@ -164,6 +164,22 @@
       "package": "zips/grafana/grafana-0.3.2.zip",
       "sha256": "e5c80243278942ce901ab761ea2cd4edbb72e5527c5ad7e2eb8c762abb562963",
       "size": 6396
+    },
+    {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "version": "0.5.0",
+      "kiosk_api": "^1.3",
+      "type": "code",
+      "category": "Services",
+      "description": "Hetzner : serveurs Cloud multi-projets (jusqu'à 8 projets, un token par projet), état/type/IP/datacenter/coût mensuel, volumes, Storage Boxes (quota utilisé/total, drapeaux) et serveurs dédiés Robot. Cloud et Robot activables séparément.",
+      "icon": "🔴",
+      "color": "#d50c2d",
+      "requires": [],
+      "changelog": "",
+      "package": "zips/hetzner/hetzner-0.5.0.zip",
+      "sha256": "a06483d31438d93f2f4577a0c3ec047ec5d765582fad1e112b23b93445a663d5",
+      "size": 7263
     },
     {
       "id": "instagram",
