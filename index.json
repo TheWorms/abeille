@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:29:01Z",
+  "updated": "2026-07-20T20:29:04Z",
   "addons": [
     {
       "id": "agenda",
@@ -106,18 +106,19 @@
     {
       "id": "emby",
       "name": "Emby",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Médias",
       "description": "Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est en lecture maintenant, reprise (continuer à regarder), bibliothèques et ajouts récents avec jaquettes. Bascule liste / cartes ; fiche détail avec résumé, genres et bouton « Lire dans Emby ».",
       "icon": "🎞️",
+      "logo": "logo.svg",
       "color": "#52b54b",
       "requires": [],
       "changelog": "",
-      "package": "zips/emby/emby-0.2.1.zip",
-      "sha256": "70fc478aa2832c69646cf8266d0b778a6633f49ed5111807fd8eed2922898311",
-      "size": 8850
+      "package": "zips/emby/emby-0.2.2.zip",
+      "sha256": "88727ab5620e42d8ac0f305353f7860e559eb4a175c225302f8a2abdf49e8f6f",
+      "size": 9194
     },
     {
       "id": "forgejo",
