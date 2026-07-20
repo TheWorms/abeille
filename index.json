@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:03:14Z",
+  "updated": "2026-07-20T22:03:17Z",
   "addons": [
     {
       "id": "agenda",
@@ -72,11 +72,11 @@
     {
       "id": "congelateur",
       "name": "Congélateur",
-      "version": "0.2.4",
+      "version": "0.2.5",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Maison",
-      "description": "",
+      "description": "Inventaire du congélateur, synchronisé avec KitchenOwl. Façade du hub cuisine.",
       "icon": "🧊",
       "logo": "logo.svg",
       "color": "#f0b429",
@@ -84,9 +84,9 @@
         "kitchenowl"
       ],
       "changelog": "",
-      "package": "zips/congelateur/congelateur-0.2.4.zip",
-      "sha256": "688c565104916d7a0adc37657aa11517f1ac07f157f9bf08ce3a44d8e7849401",
-      "size": 14806
+      "package": "zips/congelateur/congelateur-0.2.5.zip",
+      "sha256": "3befe80394897d090efdac674dbeba2e19c7a55546bfc79fe2bc9288c3106738",
+      "size": 14863
     },
     {
       "id": "courses",
