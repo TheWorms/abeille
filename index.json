@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:23:10Z",
+  "updated": "2026-07-20T17:28:48Z",
   "addons": [
     {
       "id": "agenda",
@@ -312,7 +312,7 @@
     {
       "id": "malinois",
       "name": "Malinois",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -321,9 +321,9 @@
       "color": "#e0892b",
       "requires": [],
       "changelog": "",
-      "package": "zips/malinois/malinois-0.1.0.zip",
-      "sha256": "61a6152c3ded823a1ba2f47b3af646af0991678812047c5eb820a603978c2140",
-      "size": 5088
+      "package": "zips/malinois/malinois-0.1.1.zip",
+      "sha256": "121b0cd0321d7800f20fb3df0f5ce6811f20fab5b38493ee212c9aa881dba6a7",
+      "size": 5081
     },
     {
       "id": "maree",
