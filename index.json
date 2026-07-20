@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:38:05Z",
+  "updated": "2026-07-20T20:38:08Z",
   "addons": [
     {
       "id": "agenda",
@@ -624,18 +624,19 @@
     {
       "id": "wyl",
       "name": "WatchYourLAN",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut en ligne. Bascule liste / cartes, hôtes hors ligne grisés.",
       "icon": "📡",
+      "logo": "logo.svg",
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/wyl/wyl-0.3.2.zip",
-      "sha256": "c6e6fb2105b37c8ada42f72e8df75a62c2b37fe2c28432d5de28961703321208",
-      "size": 4305
+      "package": "zips/wyl/wyl-0.3.3.zip",
+      "sha256": "d65a693fe6b4ab4990f5ba8de97eb7622c98c298f7bb15a0c05a1ed6d1ffed81",
+      "size": 4625
     }
   ]
 }
