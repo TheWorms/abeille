@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:37:56Z",
+  "updated": "2026-07-20T20:37:58Z",
   "addons": [
     {
       "id": "agenda",
@@ -520,18 +520,19 @@
     {
       "id": "soleil-lune",
       "name": "Soleil & Lune",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
       "description": "Lever et coucher du soleil, durée du jour, phase et illumination de la lune — calculés localement, sans connexion.",
       "icon": "🌙",
+      "logo": "logo.svg",
       "color": "#f0b429",
       "requires": [],
       "changelog": "",
-      "package": "zips/soleil-lune/soleil-lune-1.0.1.zip",
-      "sha256": "c5c7d570c47e6f53e941c60abd40381d6aa17451d835d0d66955a83327f34c65",
-      "size": 6242
+      "package": "zips/soleil-lune/soleil-lune-1.0.2.zip",
+      "sha256": "31b216f7b1015626846850d2db026b760393cdb9a155747bc32a6140c99e6b5d",
+      "size": 6615
     },
     {
       "id": "sonarr",
