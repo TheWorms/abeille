@@ -52,7 +52,12 @@ def main():
     cats = [c for c in CAT_ORDER if c in by_cat] + [c for c in sorted(by_cat) if c not in CAT_ORDER]
     for cat in cats:
         for a in sorted(by_cat[cat], key=lambda x: x.get("name", "").lower()):
-            icon = a.get("icon", "") or "📦"
+            aid = a.get("id", "")
+            logo = a.get("logo")
+            if logo:
+                icon = f'<img src="logos/{aid}.svg" width="22" alt="">'
+            else:
+                icon = a.get("icon", "") or "📦"
             name = a.get("name", a.get("id"))
             ver = a.get("version", "?")
             desc = (a.get("description", "") or "").strip().replace("\n", " ")
