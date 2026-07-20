@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:55:06Z",
+  "updated": "2026-07-20T21:47:04Z",
   "addons": [
     {
       "id": "agenda",
@@ -144,18 +144,19 @@
     {
       "id": "github",
       "name": "GitHub",
-      "version": "0.1.1",
+      "version": "0.1.4",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notifications non lues, issues et pull requests ouvertes, et activité récente du compte.",
       "icon": "🐙",
+      "logo": "logo.svg",
       "color": "#58a6ff",
       "requires": [],
       "changelog": "",
-      "package": "zips/github/github-0.1.1.zip",
-      "sha256": "15e25d9921be47bb4b5d21f262f3be591746e850ca043547c3648ef0e8b14475",
-      "size": 6232
+      "package": "zips/github/github-0.1.4.zip",
+      "sha256": "8517d49002bd9e88f0e9e3f5f3040e5bbceb29beae68e0ab8361a6b951d43b4c",
+      "size": 6799
     },
     {
       "id": "grafana",
