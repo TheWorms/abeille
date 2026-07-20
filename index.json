@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:00Z",
+  "updated": "2026-07-20T17:22:03Z",
   "addons": [
     {
       "id": "agenda",
@@ -132,6 +132,22 @@
       "package": "zips/forgejo/forgejo-0.2.2.zip",
       "sha256": "46b9b4d7e301c918ec67fa50dc1b7b7af1c39c1590c9b0127e47deb90d62900c",
       "size": 6116
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "version": "0.1.1",
+      "kiosk_api": "^1.3",
+      "type": "code",
+      "category": "Services",
+      "description": "GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notifications non lues, issues et pull requests ouvertes, et activité récente du compte.",
+      "icon": "🐙",
+      "color": "#58a6ff",
+      "requires": [],
+      "changelog": "",
+      "package": "zips/github/github-0.1.1.zip",
+      "sha256": "15e25d9921be47bb4b5d21f262f3be591746e850ca043547c3648ef0e8b14475",
+      "size": 6232
     },
     {
       "id": "grafana",
