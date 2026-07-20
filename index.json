@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:39Z",
+  "updated": "2026-07-20T17:22:42Z",
   "addons": [
     {
       "id": "agenda",
@@ -376,7 +376,7 @@
     {
       "id": "paperless",
       "name": "Paperless",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -385,9 +385,9 @@
       "color": "#2e8b57",
       "requires": [],
       "changelog": "",
-      "package": "zips/paperless/paperless-0.3.0.zip",
-      "sha256": "d00fa7ad3be02806b8e9ff66673ce7683899dc70808e34abb93985759c8c6292",
-      "size": 6366
+      "package": "zips/paperless/paperless-0.3.1.zip",
+      "sha256": "240cbdc0e3f897e7ed1588efa78a26d817340b1727d606bffe1025f2be1b9d8c",
+      "size": 6358
     },
     {
       "id": "pihole",
