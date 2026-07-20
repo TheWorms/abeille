@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:06:16Z",
+  "updated": "2026-07-20T22:06:19Z",
   "addons": [
     {
       "id": "agenda",
@@ -212,19 +212,19 @@
     {
       "id": "instagram",
       "name": "Instagram",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "kiosk_api": "^1.2",
       "type": "code",
       "category": "Médias",
-      "description": "",
+      "description": "Photos Instagram récupérées via instaloader : dernières publications des comptes suivis, affichées en mosaïque, synchronisation planifiée.",
       "icon": "📸",
       "logo": "logo.svg",
       "color": "#e8635a",
       "requires": [],
       "changelog": "",
-      "package": "zips/instagram/instagram-0.4.2.zip",
-      "sha256": "58c8bc81595b5a856244b726ba45927bbb19e431f54db423fe896f3574155950",
-      "size": 15562
+      "package": "zips/instagram/instagram-0.4.3.zip",
+      "sha256": "6552eac4cfde527db04211774057582767dd9294ae98dfde846ce58b2a18bee9",
+      "size": 15638
     },
     {
       "id": "jardin",
