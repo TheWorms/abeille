@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:03Z",
+  "updated": "2026-07-20T17:22:06Z",
   "addons": [
     {
       "id": "agenda",
@@ -152,7 +152,7 @@
     {
       "id": "grafana",
       "name": "Grafana",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -161,9 +161,9 @@
       "color": "#f46800",
       "requires": [],
       "changelog": "",
-      "package": "zips/grafana/grafana-0.3.1.zip",
-      "sha256": "85125db7e8b2cf4cf7a7d5e35a1f0cd192e9133d6aeae9aa24c35fb5b62feaa5",
-      "size": 6399
+      "package": "zips/grafana/grafana-0.3.2.zip",
+      "sha256": "e5c80243278942ce901ab761ea2cd4edbb72e5527c5ad7e2eb8c762abb562963",
+      "size": 6396
     },
     {
       "id": "instagram",
