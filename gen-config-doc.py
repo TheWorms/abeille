@@ -51,7 +51,10 @@ def main():
         out.append(f"\n## {cat}\n")
         for a in sorted(by_cat[cat], key=lambda x: x.get("name", "").lower()):
             icon = a.get("icon") or (a.get("tiles", [{}])[0].get("icon") if a.get("tiles") else "") or ""
-            out.append(f"\n### {icon} {a.get('name')} — v{a.get('version','?')}\n")
+            aid = a.get("id", "")
+            logo = a.get("logo")
+            icon_html = f'<img src="logos/{aid}.svg" width="20" alt=""> ' if logo else ((icon + " ") if icon else "")
+            out.append(f"\n### {icon_html}{a.get('name')} — v{a.get('version','?')}\n")
             desc = a.get("description", "").strip()
             if desc:
                 out.append(desc + "\n")
