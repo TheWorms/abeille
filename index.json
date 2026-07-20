@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:28:48Z",
+  "updated": "2026-07-20T17:28:53Z",
   "addons": [
     {
       "id": "agenda",
@@ -575,7 +575,7 @@
     {
       "id": "wyl",
       "name": "WatchYourLAN",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -584,9 +584,9 @@
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/wyl/wyl-0.3.1.zip",
-      "sha256": "3aa9f939952e906234016b4b24500741cedd3265e78a36463f3f967145bacc99",
-      "size": 4306
+      "package": "zips/wyl/wyl-0.3.2.zip",
+      "sha256": "c6e6fb2105b37c8ada42f72e8df75a62c2b37fe2c28432d5de28961703321208",
+      "size": 4305
     }
   ]
 }
