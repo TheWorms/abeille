@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:37:41Z",
+  "updated": "2026-07-20T20:37:44Z",
   "addons": [
     {
       "id": "agenda",
@@ -312,18 +312,19 @@
     {
       "id": "mail",
       "name": "Mail",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Boîte mail IMAP (Infomaniak, Gmail, Proton Bridge…) : lire les messages, marquer lu/non lu, supprimer.",
       "icon": "✉️",
+      "logo": "logo.svg",
       "color": "#7aa2f7",
       "requires": [],
       "changelog": "",
-      "package": "zips/mail/mail-0.1.1.zip",
-      "sha256": "19cd27b0b47a96b7d8b1d123d876a394fad0b7b183fef04f4d771725c67c82ed",
-      "size": 7099
+      "package": "zips/mail/mail-0.1.2.zip",
+      "sha256": "ea4029677a51a5e3ff81f2bb0f4b2e868aee148c2d31c787a0ca562361bdd3a8",
+      "size": 7399
     },
     {
       "id": "malinois",
