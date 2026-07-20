@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:22Z",
+  "updated": "2026-07-20T17:22:25Z",
   "addons": [
     {
       "id": "agenda",
@@ -264,7 +264,7 @@
     {
       "id": "kuma",
       "name": "Uptime Kuma",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -273,9 +273,9 @@
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/kuma/kuma-0.3.0.zip",
-      "sha256": "8789857565a511799255368f817a594b5f68e793f8842f6a4531f628dc9f43aa",
-      "size": 6337
+      "package": "zips/kuma/kuma-0.3.1.zip",
+      "sha256": "eb1147c76eb7907c9cea1694db3bdd24973a43ff46c9ea6e11c2f5942f8c22ee",
+      "size": 6332
     },
     {
       "id": "livres",
