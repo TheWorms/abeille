@@ -1,6 +1,6 @@
 # ⚙️ Configuration des addons
 
-Cette page décrit les réglages de chaque addon du store. La configuration se fait depuis l'écran tactile de Panda via le bouton **⚙** de chaque addon, ou à distance avec l'outil `panda-cfg.py` depuis Gypaete (`ssh -t theworms@panda.lan 'python3 ~/panda-cfg.py'`).
+Cette page décrit les réglages de chaque addon du store. La configuration se fait depuis l'écran tactile via le bouton **⚙** de chaque addon, ou à distance avec l'outil `panda-cfg.py` en SSH.
 
 Les champs marqués **secret 🔒** (clés, jetons, mots de passe) sont saisis en invisible : leur valeur n'apparaît pas à l'écran.
 
