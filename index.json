@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T00:53:38Z",
+  "updated": "2026-07-20T02:52:39Z",
   "addons": [
     {
       "id": "agenda",
@@ -104,18 +104,18 @@
     {
       "id": "emby",
       "name": "Emby",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Médias",
-      "description": "Emby : sessions en cours (qui regarde quoi), bibliothèques et compteurs, derniers ajouts, activité serveur et comptes utilisateurs.",
+      "description": "Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est en lecture maintenant, reprise (continuer à regarder), bibliothèques et ajouts récents avec jaquettes. Bascule liste / cartes ; fiche détail avec résumé, genres et bouton « Lire dans Emby ».",
       "icon": "🎞️",
       "color": "#52b54b",
       "requires": [],
       "changelog": "",
-      "package": "zips/emby/emby-0.1.0.zip",
-      "sha256": "ef52e3fe833f8e64d455f23f12375961e88a9dd2347faf795751f8335bcf9302",
-      "size": 5749
+      "package": "zips/emby/emby-0.2.0.zip",
+      "sha256": "4e056b3941710c536c2e1ef1a7e077ff86df14e465a00064d9e452210641287d",
+      "size": 8853
     },
     {
       "id": "forgejo",
@@ -360,18 +360,18 @@
     {
       "id": "radarr",
       "name": "Radarr",
-      "version": "0.1.0",
+      "version": "0.2.5",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
-      "description": "Radarr : file de téléchargements, sorties à venir, films suivis, manquants, taille de bibliothèque, espace disque, santé et activité récente.",
+      "description": "Radarr : statistiques (films, disponibles, manquants, file), téléchargements en cours, prochaines sorties et films récemment ajoutés avec affiches. Bascule liste / cartes ; clic pour la fiche détail (résumé, statut, qualité).",
       "icon": "🎬",
       "color": "#ffc230",
       "requires": [],
       "changelog": "",
-      "package": "zips/radarr/radarr-0.1.0.zip",
-      "sha256": "fcc9dfc0b9ec771bb0b0b028f7b3067b88acabaa35e5a5629bd6738c43e88aee",
-      "size": 5957
+      "package": "zips/radarr/radarr-0.2.5.zip",
+      "sha256": "657cf3206b6f27199d2fcc6f10f02455fd9832b8cb972a0fb255c1df8a4b820d",
+      "size": 8835
     },
     {
       "id": "recettes",
@@ -429,18 +429,18 @@
     {
       "id": "sonarr",
       "name": "Sonarr",
-      "version": "0.1.0",
+      "version": "0.2.5",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
-      "description": "Sonarr : file de téléchargements, calendrier des sorties, séries suivies, épisodes manquants, espace disque, santé et activité récente.",
+      "description": "Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements en cours, épisodes à venir et séries récemment ajoutées avec affiches. Bascule liste / cartes ; clic pour la fiche détail (progression, saisons, statut).",
       "icon": "📺",
       "color": "#35c5f0",
       "requires": [],
       "changelog": "",
-      "package": "zips/sonarr/sonarr-0.1.0.zip",
-      "sha256": "421b1f0fc9d73579dda0f794aa7c2bfdfa57794109eb238a605078d04d0f3352",
-      "size": 6093
+      "package": "zips/sonarr/sonarr-0.2.5.zip",
+      "sha256": "1ac9d9d33bef555383bedf3e6a3af608a9d91f6dd786aaa335e5cd6839122430",
+      "size": 8793
     },
     {
       "id": "stock",
