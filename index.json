@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:03:29Z",
+  "updated": "2026-07-20T22:03:32Z",
   "addons": [
     {
       "id": "agenda",
@@ -450,19 +450,19 @@
     {
       "id": "proxmox",
       "name": "Proxmox",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "kiosk_api": "^1.2",
       "type": "code",
       "category": "Services",
-      "description": "",
+      "description": "État de l'hyperviseur Proxmox VE : nœuds, machines virtuelles et conteneurs LXC, charge CPU/RAM et stockage.",
       "icon": "🖥️",
       "logo": "logo.svg",
       "color": "#2dd4bf",
       "requires": [],
       "changelog": "",
-      "package": "zips/proxmox/proxmox-0.2.2.zip",
-      "sha256": "f8b863b03d943e12c53615f5162287718e8600415ed5e6995e3420ad49228770",
-      "size": 2827
+      "package": "zips/proxmox/proxmox-0.2.3.zip",
+      "sha256": "434108837a56108254ac1f9422df0c2ace67afbe31073444e35cd217631a8cba",
+      "size": 2912
     },
     {
       "id": "radarr",
