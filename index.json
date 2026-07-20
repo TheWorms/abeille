@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:22:36Z",
+  "updated": "2026-07-20T17:22:39Z",
   "addons": [
     {
       "id": "agenda",
@@ -360,7 +360,7 @@
     {
       "id": "nextcloud",
       "name": "Nextcloud",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
@@ -369,9 +369,9 @@
       "color": "#7aa2f7",
       "requires": [],
       "changelog": "",
-      "package": "zips/nextcloud/nextcloud-0.4.0.zip",
-      "sha256": "d1d02432fa872c68f253ecc8c7c6b59417e0430be2ee8c347ab9209fdf53701f",
-      "size": 9510
+      "package": "zips/nextcloud/nextcloud-0.4.1.zip",
+      "sha256": "5750892d796d1874bfd560e56fa5fb977c9958964d627154794fca1e9abd6f6a",
+      "size": 9509
     },
     {
       "id": "paperless",
