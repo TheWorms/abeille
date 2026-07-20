@@ -8,7 +8,7 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 ## Maison
 
 
-### 🧊 Congélateur — v0.2.3
+### 🧊 Congélateur — v0.2.4
 
 
 | Champ | Libellé | Type |
@@ -16,12 +16,12 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 | `category` | Catégorie « congélateur » (optionnel) | texte — ex. `Congélateur` |
 
 
-### 🛒 Courses — v0.2.3
+### 🛒 Courses — v0.2.4
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### 🥘 Hub KitchenOwl — v0.2.4
+### 🥘 Hub KitchenOwl — v0.2.5
 
 
 | Champ | Libellé | Type |
@@ -31,22 +31,22 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 | `household` | Maison (id ou nom, si plusieurs) | texte — ex. `1` |
 
 
-### 🌱 Jardin — v0.3.0
+### 🌱 Jardin — v0.3.1
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### 📖 Recettes — v0.2.3
+### 📖 Recettes — v0.2.4
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### 📅 Repas semaine — v0.3.2
+### 📅 Repas semaine — v0.3.3
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### 📦 Stock cuisine — v0.2.3
+### 📦 Stock cuisine — v0.2.4
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
@@ -54,7 +54,7 @@ Cette page décrit les réglages de chaque addon du store. La configuration se f
 ## Quotidien
 
 
-### 🐜 Abonnements — v0.4.2
+### 🐜 Abonnements — v0.4.3
 
 Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous les abonnements en cartes, répartition par catégorie (donut) et prévisionnel des prochains mois. Disposition (onglets ou page unique) et horizon configurables.
 
@@ -67,7 +67,7 @@ Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous l
 | `forecast` | Prévisionnel — nombre de mois | liste déroulante — choix : 6 mois / 3 mois / 12 mois (année) |
 
 
-### 📆 Agenda — v0.3.1
+### 📆 Agenda — v0.3.2
 
 Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : événements à venir, notifications, ajout d'événements.
 
@@ -81,7 +81,7 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `notif` | Notifications dans le bandeau | liste déroulante — choix : Activées / Désactivées |
 
 
-### 💶 Budget — v0.2.2
+### 💶 Budget — v0.2.3
 
 
 | Champ | Libellé | Type |
@@ -91,7 +91,7 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `budget` | ID de synchronisation du budget | texte — ex. `laisser vide pour lister` |
 
 
-### 🌊 Marée — v0.3.1
+### 🌊 Marée — v0.3.2
 
 
 | Champ | Libellé | Type |
@@ -100,7 +100,7 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `apikey` | Clé api-maree.fr (inscription gratuite) | secret (masqué) |
 
 
-### 🌙 Soleil & Lune — v1.0.1
+### 🌙 Soleil & Lune — v1.0.2
 
 Lever et coucher du soleil, durée du jour, phase et illumination de la lune — calculés localement, sans connexion.
 
@@ -112,7 +112,7 @@ Lever et coucher du soleil, durée du jour, phase et illumination de la lune —
 | `tz` | Décalage horaire (heures, ex. 2 en été) | texte — ex. `2` |
 
 
-### 🚆 Transport — v0.2.1
+### 🚆 Transport — v0.2.2
 
 
 | Champ | Libellé | Type |
@@ -125,7 +125,7 @@ Lever et coucher du soleil, durée du jour, phase et illumination de la lune —
 ## Médias
 
 
-### 🎞️ Emby — v0.2.1
+### 🎞️ Emby — v0.2.2
 
 Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est en lecture maintenant, reprise (continuer à regarder), bibliothèques et ajouts récents avec jaquettes. Bascule liste / cartes ; fiche détail avec résumé, genres et bouton « Lire dans Emby ».
 
@@ -136,7 +136,7 @@ Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### 📸 Instagram — v0.4.1
+### 📸 Instagram — v0.4.2
 
 
 | Champ | Libellé | Type |
@@ -148,7 +148,7 @@ Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est e
 | `profile` | Profil affiché par défaut | texte — ex. `(auto : le plus fourni)` |
 
 
-### 📺 Kodi — v0.3.1
+### 📺 Kodi — v0.3.2
 
 Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et bibliothèque — films et épisodes récemment ajoutés avec affiches. Deux onglets : Lecture et Bibliothèque.
 
@@ -160,7 +160,7 @@ Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et
 | `pass` | Mot de passe | secret (masqué) |
 
 
-### 📚 Livres — v0.4.1
+### 📚 Livres — v0.4.2
 
 Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita).
 
@@ -171,7 +171,7 @@ Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche e
 | `apikey` | Clé API (Compte → Clé API) | secret (masqué) |
 
 
-### 🎵 Musique — v0.2.1
+### 🎵 Musique — v0.2.2
 
 
 | Champ | Libellé | Type |
@@ -184,7 +184,7 @@ Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche e
 ## Services
 
 
-### 🐳 Arcane — v0.3.2
+### 🐳 Arcane — v0.3.3
 
 Conteneurs Docker via Arcane, tous environnements agrégés (badge machine) : stats, liste ou cartes avec ports et état, actions démarrer / arrêter / redémarrer. Arrêtés grisés, mises à jour signalées.
 
@@ -195,7 +195,7 @@ Conteneurs Docker via Arcane, tous environnements agrégés (badge machine) : st
 | `apikey` | Clé API (arc_...) | secret (masqué) |
 
 
-### 🗂️ Forgejo — v0.2.2
+### 🗂️ Forgejo — v0.3.1
 
 Dépôts Forgejo — cartes ou liste, recherche, historique des derniers commits.
 
@@ -208,7 +208,7 @@ Dépôts Forgejo — cartes ou liste, recherche, historique des derniers commits
 | `hist` | Historique des commits (panneau de droite) | liste déroulante — choix : 10 derniers / 5 derniers / 20 derniers / Masqué |
 
 
-### 🐙 GitHub — v0.1.1
+### 🐙 GitHub — v0.1.4
 
 GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notifications non lues, issues et pull requests ouvertes, et activité récente du compte.
 
@@ -218,7 +218,7 @@ GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notif
 | `token` | Token d'accès (PAT) | secret (masqué) — ex. `ghp_…` |
 
 
-### 📊 Grafana — v0.3.2
+### 📊 Grafana — v0.3.5
 
 Supervision Grafana : santé et version, sources de données et leur état, alertes actives, liste des dashboards, et rendu à la demande d'un panel (image PNG via le renderer).
 
@@ -230,7 +230,7 @@ Supervision Grafana : santé et version, sources de données et leur état, aler
 | `theme` | Thème du rendu des panels | liste déroulante — choix : Sombre / Clair |
 
 
-### 🔴 Hetzner — v0.5.0
+### 🔴 Hetzner — v0.5.1
 
 Hetzner : serveurs Cloud multi-projets (jusqu'à 8 projets, un token par projet), état/type/IP/datacenter/coût mensuel, volumes, Storage Boxes (quota utilisé/total, drapeaux) et serveurs dédiés Robot. Cloud et Robot activables séparément.
 
@@ -259,7 +259,7 @@ Hetzner : serveurs Cloud multi-projets (jusqu'à 8 projets, un token par projet)
 | `robot_pass` | Mot de passe webservice | secret (masqué) |
 
 
-### 🌐 Infomaniak — v0.6.0
+### 🌐 Infomaniak — v0.6.1
 
 Infomaniak multi-organisations : balaie automatiquement tous tes comptes (Koody, ES Production…) et agrège domaines, hébergements mail, Cloud/VPS, certificats SSL et hébergements web, avec dates d'expiration, étiquettes et badge organisation. Sections activables séparément. Token unique avec scope accounts requis pour le multi-orga.
 
@@ -274,7 +274,7 @@ Infomaniak multi-organisations : balaie automatiquement tous tes comptes (Koody,
 | `show_other` | Hébergements web et autres (activé par défaut) | interrupteur |
 
 
-### ✉️ Mail — v0.1.1
+### ✉️ Mail — v0.1.2
 
 Boîte mail IMAP (Infomaniak, Gmail, Proton Bridge…) : lire les messages, marquer lu/non lu, supprimer.
 
@@ -288,7 +288,7 @@ Boîte mail IMAP (Infomaniak, Gmail, Proton Bridge…) : lire les messages, marq
 | `folder` | Dossier | texte — ex. `INBOX` |
 
 
-### 🐕 Malinois — v0.1.1
+### 🐕 Malinois — v0.1.2
 
 Trackers privés via tracker-autovisit (Malinois) : état des visites automatiques (OK / échec), dernière visite, alertes, et stats par tracker (ratio, upload, download, bonus). Le site en échec est mis en avant.
 
@@ -299,7 +299,7 @@ Trackers privés via tracker-autovisit (Malinois) : état des visites automatiqu
 | `apikey` | Clé API | secret (masqué) |
 
 
-### ☁️ Nextcloud — v0.4.1
+### ☁️ Nextcloud — v0.4.2
 
 . Explorateur avec bascule liste / cartes (vignettes en grille).
 
@@ -311,7 +311,7 @@ Trackers privés via tracker-autovisit (Malinois) : état des visites automatiqu
 | `pass` | Mot de passe d'application | secret (masqué) |
 
 
-### ☁️ OVH — v0.2.0
+### ☁️ OVH — v0.2.1
 
 OVHcloud : domaines (expiration, offre, DNSSEC), hébergements web, VPS, serveurs dédiés et projets Public Cloud. Sections activables séparément. Authentification par clés API (Application Key/Secret + Consumer Key), lecture seule.
 
@@ -329,7 +329,7 @@ OVHcloud : domaines (expiration, offre, DNSSEC), hébergements web, VPS, serveur
 | `show_cloud` | Public Cloud (activé par défaut) | interrupteur |
 
 
-### 📄 Paperless — v0.3.1
+### 📄 Paperless — v0.3.2
 
 Paperless-ngx (Méduse) : statistiques (documents, réception, correspondants, types, tags), recherche plein-texte, boîte de réception et documents récents avec vignettes. Bascule liste / cartes ; clic pour ouvrir le document.
 
@@ -340,7 +340,7 @@ Paperless-ngx (Méduse) : statistiques (documents, réception, correspondants, t
 | `token` | Jeton API (Paramètres → Jeton API) | secret (masqué) |
 
 
-### 🛡️ Pi-hole — v0.7.0
+### 🛡️ Pi-hole — v0.7.1
 
 Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, statistiques détaillées (top domaines/clients, amont DNS, types de requêtes, historique 24 h), couleurs Pi-hole.
 
@@ -364,7 +364,7 @@ Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, st
 | `pass5` | Mot de passe d'application 5 | secret (masqué) |
 
 
-### 🖥️ Proxmox — v0.2.1
+### 🖥️ Proxmox — v0.2.2
 
 
 | Champ | Libellé | Type |
@@ -373,7 +373,7 @@ Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, st
 | `token` | Token API | secret (masqué) |
 
 
-### 🎬 Radarr — v0.2.6
+### 🎬 Radarr — v0.2.9
 
 Radarr : statistiques (films, disponibles, manquants, file), téléchargements en cours, prochaines sorties et films récemment ajoutés avec affiches. Bascule liste / cartes ; clic pour la fiche détail (résumé, statut, qualité).
 
@@ -384,7 +384,7 @@ Radarr : statistiques (films, disponibles, manquants, file), téléchargements e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### 💾 Sauvegardes — v0.4.1
+### 💾 Sauvegardes — v0.4.2
 
 Liste des sauvegardes vzdump présentes sur les stockages Proxmox, regroupées par VM/CT : dernière sauvegarde, nombre, taille cumulée, fichiers protégés.
 
@@ -395,7 +395,7 @@ Liste des sauvegardes vzdump présentes sur les stockages Proxmox, regroupées p
 | `token` | Token API (USER@REALM!ID=UUID) | secret (masqué) |
 
 
-### 📺 Sonarr — v0.2.6
+### 📺 Sonarr — v0.2.7
 
 Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements en cours, épisodes à venir et séries récemment ajoutées avec affiches. Bascule liste / cartes ; clic pour la fiche détail (progression, saisons, statut).
 
@@ -406,7 +406,7 @@ Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### 🟢 Uptime Kuma — v0.3.1
+### 🟢 Uptime Kuma — v0.3.2
 
 Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteurs en liste ou cartes avec uptime 24 h, temps de réponse et historique récent.
 
@@ -420,7 +420,7 @@ Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteur
 | `format` | Format du bandeau | liste déroulante — choix : Total — En ligne / Total / Pastille — En ligne / Hors ligne / Texte — En ligne / Hors ligne |
 
 
-### 📡 WatchYourLAN — v0.3.2
+### 📡 WatchYourLAN — v0.3.3
 
 Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut en ligne. Bascule liste / cartes, hôtes hors ligne grisés.
 
@@ -430,7 +430,7 @@ Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut e
 | `url` | URL WatchYourLAN | texte — ex. `http://watchyourlan.example.com:8840` |
 
 
-### 📚 Wiki.js — v0.3.2
+### 📚 Wiki.js — v0.3.3
 
 Wiki.js (Hibou) : statistiques (pages, publiées, brouillons, dossiers), recherche, pages récemment modifiées et arborescence par dossier. Bascule liste / cartes ; clic pour ouvrir la page.
 
