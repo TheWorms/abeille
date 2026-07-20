@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T20:29:13Z",
+  "updated": "2026-07-20T20:29:16Z",
   "addons": [
     {
       "id": "agenda",
@@ -255,18 +255,19 @@
     {
       "id": "kodi",
       "name": "Kodi",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Médias",
       "description": "Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et bibliothèque — films et épisodes récemment ajoutés avec affiches. Deux onglets : Lecture et Bibliothèque.",
       "icon": "📺",
+      "logo": "logo.svg",
       "color": "#e8635a",
       "requires": [],
       "changelog": "",
-      "package": "zips/kodi/kodi-0.3.1.zip",
-      "sha256": "0cb17955f95b3d2e243f51f8470e89c53ff03ca364755d1b41a9229f06ec1dc9",
-      "size": 7600
+      "package": "zips/kodi/kodi-0.3.2.zip",
+      "sha256": "5668802d44da45e15e20386c09608d66f8d855369e8afef2f38ce3d80c5d2b90",
+      "size": 8375
     },
     {
       "id": "kuma",
