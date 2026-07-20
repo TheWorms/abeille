@@ -37,7 +37,9 @@ Hub cuisine KitchenOwl : liste de courses, garde-manger, congélateur, recettes 
 | `household` | Maison (id ou nom, si plusieurs) | texte — ex. `1` |
 
 
-### <img src="logos/jardin.svg" width="20" alt=""> Jardin — v0.3.1
+### <img src="logos/jardin.svg" width="20" alt=""> Jardin — v0.3.2
+
+Suivi du potager et du jardin : plantations en cours, calendrier d'arrosage, récoltes et rappels de saison.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
@@ -154,7 +156,9 @@ Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### <img src="logos/instagram.svg" width="20" alt=""> Instagram — v0.4.2
+### <img src="logos/instagram.svg" width="20" alt=""> Instagram — v0.4.3
+
+Photos Instagram récupérées via instaloader : dernières publications des comptes suivis, affichées en mosaïque, synchronisation planifiée.
 
 
 | Champ | Libellé | Type |
