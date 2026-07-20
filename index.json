@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T21:47:06Z",
+  "updated": "2026-07-20T21:47:07Z",
   "addons": [
     {
       "id": "agenda",
@@ -467,18 +467,19 @@
     {
       "id": "radarr",
       "name": "Radarr",
-      "version": "0.2.6",
+      "version": "0.2.9",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Services",
       "description": "Radarr : statistiques (films, disponibles, manquants, file), téléchargements en cours, prochaines sorties et films récemment ajoutés avec affiches. Bascule liste / cartes ; clic pour la fiche détail (résumé, statut, qualité).",
       "icon": "🎬",
+      "logo": "logo.svg",
       "color": "#ffc230",
       "requires": [],
       "changelog": "",
-      "package": "zips/radarr/radarr-0.2.6.zip",
-      "sha256": "d5e4fcec57b1315d00ddd6e990866e1774f8670f025051aca6bcc478cc474a2a",
-      "size": 8834
+      "package": "zips/radarr/radarr-0.2.9.zip",
+      "sha256": "55c2c3d1a5daf6ae1155ead513365cd5a14ae1027c271c24524f3745e852a1d2",
+      "size": 9422
     },
     {
       "id": "recettes",
