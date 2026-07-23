@@ -107,7 +107,7 @@ Budget personnel via Actual Budget (passerelle actual-http-api) : soldes des com
 | `budget` | ID de synchronisation du budget | texte — ex. `laisser vide pour lister` |
 
 
-### <img src="logos/maree.svg" width="20" alt=""> Marée — v0.3.3
+### <img src="logos/maree.svg" width="20" alt=""> Marée — v0.3.4
 
 Horaires et coefficients de marée (pleines et basses mers) via l'API api-maree.fr.
 
@@ -118,7 +118,7 @@ Horaires et coefficients de marée (pleines et basses mers) via l'API api-maree.
 | `apikey` | Clé api-maree.fr (inscription gratuite) | secret (masqué) |
 
 
-### <img src="logos/soleil-lune.svg" width="20" alt=""> Soleil & Lune — v1.0.2
+### <img src="logos/soleil-lune.svg" width="20" alt=""> Soleil & Lune — v1.0.3
 
 Lever et coucher du soleil, durée du jour, phase et illumination de la lune — calculés localement, sans connexion.
 
