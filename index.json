@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T22:06:19Z",
+  "updated": "2026-07-23T15:10:23Z",
   "addons": [
     {
       "id": "agenda",
@@ -523,7 +523,7 @@
     {
       "id": "soleil-lune",
       "name": "Soleil & Lune",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Quotidien",
@@ -533,9 +533,9 @@
       "color": "#f0b429",
       "requires": [],
       "changelog": "",
-      "package": "zips/soleil-lune/soleil-lune-1.0.2.zip",
-      "sha256": "31b216f7b1015626846850d2db026b760393cdb9a155747bc32a6140c99e6b5d",
-      "size": 6615
+      "package": "zips/soleil-lune/soleil-lune-1.0.3.zip",
+      "sha256": "91c511f1d9a2c3901b72d5964dc4b7d029c0aba17204c521bf956a1bc9e62d38",
+      "size": 14049
     },
     {
       "id": "sonarr",
