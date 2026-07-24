@@ -2,13 +2,13 @@
 
 Cette page décrit les réglages de chaque addon du store. La configuration se fait depuis l'écran tactile via le bouton **⚙** de chaque addon, ou à distance avec l'outil `panda-cfg.py` en SSH.
 
-*37 addons au total. Document généré automatiquement depuis les manifests.*
+*38 addons au total. Document généré automatiquement depuis les manifests.*
 
 
 ## Maison
 
 
-### <img src="logos/congelateur.svg" width="20" alt=""> Congélateur — v0.2.5
+### <img src="logos/congelateur.svg" width="20" alt=""> Congélateur
 
 Inventaire du congélateur, synchronisé avec KitchenOwl. Façade du hub cuisine.
 
@@ -18,14 +18,14 @@ Inventaire du congélateur, synchronisé avec KitchenOwl. Façade du hub cuisine
 | `category` | Catégorie « congélateur » (optionnel) | texte — ex. `Congélateur` |
 
 
-### <img src="logos/courses.svg" width="20" alt=""> Courses — v0.2.5
+### <img src="logos/courses.svg" width="20" alt=""> Courses
 
 Liste de courses partagée, synchronisée avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/kitchenowl.svg" width="20" alt=""> Hub KitchenOwl — v0.2.6
+### <img src="logos/kitchenowl.svg" width="20" alt=""> Hub KitchenOwl
 
 Hub cuisine KitchenOwl : liste de courses, garde-manger, congélateur, recettes et planning de repas. Base partagée par les addons Courses, Stock, Congélateur, Recettes et Repas.
 
@@ -37,28 +37,28 @@ Hub cuisine KitchenOwl : liste de courses, garde-manger, congélateur, recettes 
 | `household` | Maison (id ou nom, si plusieurs) | texte — ex. `1` |
 
 
-### <img src="logos/jardin.svg" width="20" alt=""> Jardin — v0.3.2
+### <img src="logos/jardin.svg" width="20" alt=""> Jardin
 
 Suivi du potager et du jardin : plantations en cours, calendrier d'arrosage, récoltes et rappels de saison.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/recettes.svg" width="20" alt=""> Recettes — v0.2.5
+### <img src="logos/recettes.svg" width="20" alt=""> Recettes
 
 Recettes de cuisine, synchronisées avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/repas.svg" width="20" alt=""> Repas semaine — v0.3.4
+### <img src="logos/repas.svg" width="20" alt=""> Repas semaine
 
 Planning des repas de la semaine, synchronisé avec KitchenOwl. Façade du hub cuisine.
 
 *Aucun réglage nécessaire (configuration héritée ou automatique).*
 
 
-### <img src="logos/stock.svg" width="20" alt=""> Stock cuisine — v0.2.5
+### <img src="logos/stock.svg" width="20" alt=""> Stock cuisine
 
 Garde-manger et stock des placards, synchronisés avec KitchenOwl. Façade du hub cuisine.
 
@@ -68,7 +68,7 @@ Garde-manger et stock des placards, synchronisés avec KitchenOwl. Façade du hu
 ## Quotidien
 
 
-### <img src="logos/wallos.svg" width="20" alt=""> Abonnements — v0.4.3
+### <img src="logos/wallos.svg" width="20" alt=""> Abonnements
 
 Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous les abonnements en cartes, répartition par catégorie (donut) et prévisionnel des prochains mois. Disposition (onglets ou page unique) et horizon configurables.
 
@@ -81,7 +81,7 @@ Abonnements via Wallos (Fourmi) : budget du mois (dû/prélevé/restant), tous l
 | `forecast` | Prévisionnel — nombre de mois | liste déroulante — choix : 6 mois / 3 mois / 12 mois (année) |
 
 
-### <img src="logos/agenda.svg" width="20" alt=""> Agenda — v0.3.2
+### <img src="logos/agenda.svg" width="20" alt=""> Agenda
 
 Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : événements à venir, notifications, ajout d'événements.
 
@@ -95,7 +95,7 @@ Agenda CalDAV (Infomaniak, Nextcloud, Baïkal, Radicale, Fastmail, Google…) : 
 | `notif` | Notifications dans le bandeau | liste déroulante — choix : Activées / Désactivées |
 
 
-### <img src="logos/budget.svg" width="20" alt=""> Budget — v0.2.4
+### <img src="logos/budget.svg" width="20" alt=""> Budget
 
 Budget personnel via Actual Budget (passerelle actual-http-api) : soldes des comptes, transactions récentes et suivi des catégories.
 
@@ -107,7 +107,7 @@ Budget personnel via Actual Budget (passerelle actual-http-api) : soldes des com
 | `budget` | ID de synchronisation du budget | texte — ex. `laisser vide pour lister` |
 
 
-### <img src="logos/maree.svg" width="20" alt=""> Marée — v0.3.4
+### <img src="logos/maree.svg" width="20" alt=""> Marée
 
 Horaires et coefficients de marée (pleines et basses mers) via l'API api-maree.fr.
 
@@ -118,7 +118,7 @@ Horaires et coefficients de marée (pleines et basses mers) via l'API api-maree.
 | `apikey` | Clé api-maree.fr (inscription gratuite) | secret (masqué) |
 
 
-### <img src="logos/soleil-lune.svg" width="20" alt=""> Soleil & Lune — v1.0.3
+### <img src="logos/soleil-lune.svg" width="20" alt=""> Soleil & Lune
 
 Lever et coucher du soleil, durée du jour, phase et illumination de la lune — calculés localement, sans connexion.
 
@@ -130,7 +130,7 @@ Lever et coucher du soleil, durée du jour, phase et illumination de la lune —
 | `tz` | Décalage horaire (heures, ex. 2 en été) | texte — ex. `2` |
 
 
-### <img src="logos/transport.svg" width="20" alt=""> Transport — v0.2.3
+### <img src="logos/transport.svg" width="20" alt=""> Transport
 
 Prochains passages de train, métro, tram et bus via l'API Navitia (données SNCF / transporteurs).
 
@@ -145,7 +145,7 @@ Prochains passages de train, métro, tram et bus via l'API Navitia (données SNC
 ## Médias
 
 
-### <img src="logos/emby.svg" width="20" alt=""> Emby — v0.2.2
+### <img src="logos/emby.svg" width="20" alt=""> Emby
 
 Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est en lecture maintenant, reprise (continuer à regarder), bibliothèques et ajouts récents avec jaquettes. Bascule liste / cartes ; fiche détail avec résumé, genres et bouton « Lire dans Emby ».
 
@@ -156,7 +156,7 @@ Emby : statistiques (films, séries, épisodes, lectures en cours), ce qui est e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### <img src="logos/instagram.svg" width="20" alt=""> Instagram — v0.4.3
+### <img src="logos/instagram.svg" width="20" alt=""> Instagram
 
 Photos Instagram récupérées via instaloader : dernières publications des comptes suivis, affichées en mosaïque, synchronisation planifiée.
 
@@ -170,7 +170,18 @@ Photos Instagram récupérées via instaloader : dernières publications des com
 | `profile` | Profil affiché par défaut | texte — ex. `(auto : le plus fourni)` |
 
 
-### <img src="logos/kodi.svg" width="20" alt=""> Kodi — v0.3.2
+### <img src="logos/kavita.svg" width="20" alt=""> Kavita
+
+Kavita : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita). Anciennement publié sous l'identifiant « livres ».
+
+
+| Champ | Libellé | Type |
+|---|---|---|
+| `url` | URL Kavita | texte — ex. `http://kavita.example.com` |
+| `apikey` | Clé API (Compte → Clé API) | secret (masqué) |
+
+
+### <img src="logos/kodi.svg" width="20" alt=""> Kodi
 
 Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et bibliothèque — films et épisodes récemment ajoutés avec affiches. Deux onglets : Lecture et Bibliothèque.
 
@@ -182,18 +193,20 @@ Kodi (Cormoran/Ours) : télécommande complète (lecture, navigation, volume) et
 | `pass` | Mot de passe | secret (masqué) |
 
 
-### <img src="logos/livres.svg" width="20" alt=""> Livres — v0.4.2
+### <img src="logos/komga.svg" width="20" alt=""> Komga
 
-Kavita (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Kavita).
+Komga (Hérisson) : bibliothèques, lectures en cours, nouveautés, recherche et LISEUSE intégrée — lecture des BD page par page au tactile (zones gauche/droite/centre, curseur, progression synchronisée avec Komga).
 
 
 | Champ | Libellé | Type |
 |---|---|---|
-| `url` | URL Kavita | texte — ex. `http://kavita.example.com` |
-| `apikey` | Clé API (Compte → Clé API) | secret (masqué) |
+| `url` | URL Komga | texte — ex. `http://herisson.lan` |
+| `apikey` | Clé API (Compte → Clés API) | secret (masqué) |
+| `user` | Email (repli si pas de clé API) | texte — ex. `optionnel` |
+| `password` | Mot de passe (repli) | secret (masqué) |
 
 
-### <img src="logos/musique.svg" width="20" alt=""> Musique — v0.2.3
+### <img src="logos/musique.svg" width="20" alt=""> Musique
 
 Lecteur audio branché sur Navidrome (Subsonic) : lecture en fond, favoris et navigation dans la bibliothèque.
 
@@ -208,7 +221,7 @@ Lecteur audio branché sur Navidrome (Subsonic) : lecture en fond, favoris et na
 ## Services
 
 
-### <img src="logos/arcane.svg" width="20" alt=""> Arcane — v0.3.3
+### <img src="logos/arcane.svg" width="20" alt=""> Arcane
 
 Conteneurs Docker via Arcane, tous environnements agrégés (badge machine) : stats, liste ou cartes avec ports et état, actions démarrer / arrêter / redémarrer. Arrêtés grisés, mises à jour signalées.
 
@@ -219,7 +232,7 @@ Conteneurs Docker via Arcane, tous environnements agrégés (badge machine) : st
 | `apikey` | Clé API (arc_...) | secret (masqué) |
 
 
-### <img src="logos/forgejo.svg" width="20" alt=""> Forgejo — v0.3.1
+### <img src="logos/forgejo.svg" width="20" alt=""> Forgejo
 
 Dépôts Forgejo — cartes ou liste, recherche, historique des derniers commits.
 
@@ -232,7 +245,7 @@ Dépôts Forgejo — cartes ou liste, recherche, historique des derniers commits
 | `hist` | Historique des commits (panneau de droite) | liste déroulante — choix : 10 derniers / 5 derniers / 20 derniers / Masqué |
 
 
-### <img src="logos/github.svg" width="20" alt=""> GitHub — v0.1.4
+### <img src="logos/github.svg" width="20" alt=""> GitHub
 
 GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notifications non lues, issues et pull requests ouvertes, et activité récente du compte.
 
@@ -242,7 +255,7 @@ GitHub : tes dépôts publics et privés (étoiles, issues, dernier push), notif
 | `token` | Token d'accès (PAT) | secret (masqué) — ex. `ghp_…` |
 
 
-### <img src="logos/grafana.svg" width="20" alt=""> Grafana — v0.3.5
+### <img src="logos/grafana.svg" width="20" alt=""> Grafana
 
 Supervision Grafana : santé et version, sources de données et leur état, alertes actives, liste des dashboards, et rendu à la demande d'un panel (image PNG via le renderer).
 
@@ -254,7 +267,7 @@ Supervision Grafana : santé et version, sources de données et leur état, aler
 | `theme` | Thème du rendu des panels | liste déroulante — choix : Sombre / Clair |
 
 
-### <img src="logos/hetzner.svg" width="20" alt=""> Hetzner — v0.5.1
+### <img src="logos/hetzner.svg" width="20" alt=""> Hetzner
 
 Hetzner : serveurs Cloud multi-projets (jusqu'à 8 projets, un token par projet), état/type/IP/datacenter/coût mensuel, volumes, Storage Boxes (quota utilisé/total, drapeaux) et serveurs dédiés Robot. Cloud et Robot activables séparément.
 
@@ -283,7 +296,7 @@ Hetzner : serveurs Cloud multi-projets (jusqu'à 8 projets, un token par projet)
 | `robot_pass` | Mot de passe webservice | secret (masqué) |
 
 
-### <img src="logos/infomaniak.svg" width="20" alt=""> Infomaniak — v0.6.1
+### <img src="logos/infomaniak.svg" width="20" alt=""> Infomaniak
 
 Infomaniak multi-organisations : balaie automatiquement tous tes comptes (Koody, ES Production…) et agrège domaines, hébergements mail, Cloud/VPS, certificats SSL et hébergements web, avec dates d'expiration, étiquettes et badge organisation. Sections activables séparément. Token unique avec scope accounts requis pour le multi-orga.
 
@@ -298,7 +311,7 @@ Infomaniak multi-organisations : balaie automatiquement tous tes comptes (Koody,
 | `show_other` | Hébergements web et autres (activé par défaut) | interrupteur |
 
 
-### <img src="logos/mail.svg" width="20" alt=""> Mail — v0.1.2
+### <img src="logos/mail.svg" width="20" alt=""> Mail
 
 Boîte mail IMAP (Infomaniak, Gmail, Proton Bridge…) : lire les messages, marquer lu/non lu, supprimer.
 
@@ -312,7 +325,7 @@ Boîte mail IMAP (Infomaniak, Gmail, Proton Bridge…) : lire les messages, marq
 | `folder` | Dossier | texte — ex. `INBOX` |
 
 
-### <img src="logos/malinois.svg" width="20" alt=""> Malinois — v0.1.2
+### <img src="logos/malinois.svg" width="20" alt=""> Malinois
 
 Trackers privés via tracker-autovisit (Malinois) : état des visites automatiques (OK / échec), dernière visite, alertes, et stats par tracker (ratio, upload, download, bonus). Le site en échec est mis en avant.
 
@@ -323,7 +336,7 @@ Trackers privés via tracker-autovisit (Malinois) : état des visites automatiqu
 | `apikey` | Clé API | secret (masqué) |
 
 
-### <img src="logos/nextcloud.svg" width="20" alt=""> Nextcloud — v0.4.2
+### <img src="logos/nextcloud.svg" width="20" alt=""> Nextcloud
 
 . Explorateur avec bascule liste / cartes (vignettes en grille).
 
@@ -335,7 +348,7 @@ Trackers privés via tracker-autovisit (Malinois) : état des visites automatiqu
 | `pass` | Mot de passe d'application | secret (masqué) |
 
 
-### <img src="logos/ovh.svg" width="20" alt=""> OVH — v0.2.1
+### <img src="logos/ovh.svg" width="20" alt=""> OVH
 
 OVHcloud : domaines (expiration, offre, DNSSEC), hébergements web, VPS, serveurs dédiés et projets Public Cloud. Sections activables séparément. Authentification par clés API (Application Key/Secret + Consumer Key), lecture seule.
 
@@ -353,7 +366,7 @@ OVHcloud : domaines (expiration, offre, DNSSEC), hébergements web, VPS, serveur
 | `show_cloud` | Public Cloud (activé par défaut) | interrupteur |
 
 
-### <img src="logos/paperless.svg" width="20" alt=""> Paperless — v0.3.2
+### <img src="logos/paperless.svg" width="20" alt=""> Paperless
 
 Paperless-ngx (Méduse) : statistiques (documents, réception, correspondants, types, tags), recherche plein-texte, boîte de réception et documents récents avec vignettes. Bascule liste / cartes ; clic pour ouvrir le document.
 
@@ -364,7 +377,7 @@ Paperless-ngx (Méduse) : statistiques (documents, réception, correspondants, t
 | `token` | Jeton API (Paramètres → Jeton API) | secret (masqué) |
 
 
-### <img src="logos/pihole.svg" width="20" alt=""> Pi-hole — v0.7.1
+### <img src="logos/pihole.svg" width="20" alt=""> Pi-hole
 
 Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, statistiques détaillées (top domaines/clients, amont DNS, types de requêtes, historique 24 h), couleurs Pi-hole.
 
@@ -388,7 +401,7 @@ Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, st
 | `pass5` | Mot de passe d'application 5 | secret (masqué) |
 
 
-### <img src="logos/proxmox.svg" width="20" alt=""> Proxmox — v0.2.3
+### <img src="logos/proxmox.svg" width="20" alt=""> Proxmox
 
 État de l'hyperviseur Proxmox VE : nœuds, machines virtuelles et conteneurs LXC, charge CPU/RAM et stockage.
 
@@ -399,7 +412,7 @@ Supervision Pi-hole v6 multi-instances : ajoute autant de nœuds que tu veux, st
 | `token` | Token API | secret (masqué) |
 
 
-### <img src="logos/radarr.svg" width="20" alt=""> Radarr — v0.2.9
+### <img src="logos/radarr.svg" width="20" alt=""> Radarr
 
 Radarr : statistiques (films, disponibles, manquants, file), téléchargements en cours, prochaines sorties et films récemment ajoutés avec affiches. Bascule liste / cartes ; clic pour la fiche détail (résumé, statut, qualité).
 
@@ -410,7 +423,7 @@ Radarr : statistiques (films, disponibles, manquants, file), téléchargements e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### <img src="logos/backups.svg" width="20" alt=""> Sauvegardes — v0.4.2
+### <img src="logos/backups.svg" width="20" alt=""> Sauvegardes
 
 Liste des sauvegardes vzdump présentes sur les stockages Proxmox, regroupées par VM/CT : dernière sauvegarde, nombre, taille cumulée, fichiers protégés.
 
@@ -421,7 +434,7 @@ Liste des sauvegardes vzdump présentes sur les stockages Proxmox, regroupées p
 | `token` | Token API (USER@REALM!ID=UUID) | secret (masqué) |
 
 
-### <img src="logos/sonarr.svg" width="20" alt=""> Sonarr — v0.2.7
+### <img src="logos/sonarr.svg" width="20" alt=""> Sonarr
 
 Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements en cours, épisodes à venir et séries récemment ajoutées avec affiches. Bascule liste / cartes ; clic pour la fiche détail (progression, saisons, statut).
 
@@ -432,7 +445,7 @@ Sonarr : statistiques (séries, épisodes, file, manquants), téléchargements e
 | `apikey` | Clé API | secret (masqué) |
 
 
-### <img src="logos/kuma.svg" width="20" alt=""> Uptime Kuma — v0.3.2
+### <img src="logos/kuma.svg" width="20" alt=""> Uptime Kuma
 
 Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteurs en liste ou cartes avec uptime 24 h, temps de réponse et historique récent.
 
@@ -446,7 +459,7 @@ Uptime Kuma (Faucon) : statistiques (en ligne, hors ligne, ping moyen), moniteur
 | `format` | Format du bandeau | liste déroulante — choix : Total — En ligne / Total / Pastille — En ligne / Hors ligne / Texte — En ligne / Hors ligne |
 
 
-### <img src="logos/wyl.svg" width="20" alt=""> WatchYourLAN — v0.3.3
+### <img src="logos/wyl.svg" width="20" alt=""> WatchYourLAN
 
 Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut en ligne. Bascule liste / cartes, hôtes hors ligne grisés.
 
@@ -456,7 +469,7 @@ Hôtes du réseau via WatchYourLAN (Furet) : nom, IP, MAC, matériel et statut e
 | `url` | URL WatchYourLAN | texte — ex. `http://watchyourlan.example.com:8840` |
 
 
-### <img src="logos/wikijs.svg" width="20" alt=""> Wiki.js — v0.3.3
+### <img src="logos/wikijs.svg" width="20" alt=""> Wiki.js
 
 Wiki.js (Hibou) : statistiques (pages, publiées, brouillons, dossiers), recherche, pages récemment modifiées et arborescence par dossier. Bascule liste / cartes ; clic pour ouvrir la page.
 

@@ -54,7 +54,7 @@ def main():
             aid = a.get("id", "")
             logo = a.get("logo")
             icon_html = f'<img src="logos/{aid}.svg" width="20" alt=""> ' if logo else ((icon + " ") if icon else "")
-            out.append(f"\n### {icon_html}{a.get('name')} — v{a.get('version','?')}\n")
+            out.append(f"\n### {icon_html}{a.get('name')}\n")
             desc = a.get("description", "").strip()
             if desc:
                 out.append(desc + "\n")
