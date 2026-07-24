@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T16:38:25Z",
+  "updated": "2026-07-24T18:44:43Z",
   "addons": [
     {
       "id": "agenda",
@@ -246,7 +246,7 @@
     {
       "id": "kavita",
       "name": "Kavita",
-      "version": "1.0.0",
+      "version": "1.0.2",
       "kiosk_api": "^1.3",
       "type": "code",
       "category": "Médias",
@@ -256,8 +256,8 @@
       "color": "#4ac694",
       "requires": [],
       "changelog": "",
-      "package": "zips/kavita/kavita-1.0.0.zip",
-      "sha256": "ea30dc181a2097032938c58c351f003b84b02c2e8d34b195c153f56f593b9f05",
+      "package": "zips/kavita/kavita-1.0.2.zip",
+      "sha256": "41e71b5a103f74104e07f09ee8a77003fd7b69db94e1ec0d52eb366566445738",
       "size": 9980
     },
     {
