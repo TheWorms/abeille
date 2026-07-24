@@ -46,8 +46,8 @@ def main():
 
     out = [HEADER]
     out.append(f"\n## Catalogue — {len(addons)} addons\n")
-    out.append("| | Addon | Catégorie | Description |")
-    out.append("|---|---|---|---|")
+    out.append("| Addon | Catégorie | Description |")
+    out.append("|---|---|---|")
 
     cats = [c for c in CAT_ORDER if c in by_cat] + [c for c in sorted(by_cat) if c not in CAT_ORDER]
     for cat in cats:
@@ -63,7 +63,7 @@ def main():
             # tronquer les descriptions très longues pour le tableau
             if len(desc) > 130:
                 desc = desc[:127].rsplit(" ", 1)[0] + "…"
-            out.append(f"| {icon} | {name} | {cat} | {desc} |")
+            out.append(f"| {icon} {name} | {cat} | {desc} |")
 
     out.append(FOOTER)
     print("\n".join(out))
